@@ -1,0 +1,23 @@
+{
+  "name": "finaltestserver",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "module": "^1.2.5",
+    "mongoose": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
